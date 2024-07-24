@@ -19,4 +19,15 @@ public class Cliente {
         this.dataIscrizione = dataIscrizione;
 
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "codiceCliente=" + codiceCliente +
+                ", nome='" + nome + '\'' +
+                ", cognome='" + cognome + '\'' +
+                ", email='" + email + '\'' +
+                ", dataIscrizione=" + dataIscrizione +
+                '}';
+    }
 }

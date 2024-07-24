@@ -9,5 +9,12 @@ public class Main {
         Articolo iphone = new Articolo("iphone", 1000, 1);
 
         Articolo mac = new Articolo("mac", 1299, 1);
+
+        Articolo[] arrArticoli = {iphone, mac};
+
+        Carrello carrello = new Carrello(mirko, arrArticoli);
+
+        System.out.println(mirko);
+        System.out.println(carrello);
     }
 }
