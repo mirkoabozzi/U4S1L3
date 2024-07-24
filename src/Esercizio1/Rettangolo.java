@@ -21,9 +21,9 @@ public class Rettangolo {
 
     public static String stampaDueRettangoli(double altezza1, double larghezza1,double altezza2, double larghezza2) {
         double perimetro1 = (altezza1 + larghezza1)*2;
-        double area1= (altezza1 * larghezza1);
+        double area1 = (altezza1 * larghezza1);
         double perimetro2 = (altezza2 + larghezza2)*2;
-        double area2= (altezza2 * larghezza2);
+        double area2 = (altezza2 * larghezza2);
         return "Somma perimetri= " + (perimetro1 + perimetro2) + " Somma aree= "+ (area1 + area2);
     }
 
