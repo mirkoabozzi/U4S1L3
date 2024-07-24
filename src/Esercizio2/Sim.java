@@ -17,7 +17,7 @@ public class Sim {
 
     public void printData(){
         System.out.println("Numero telefono: " + this.numeroTelefono );
-        System.out.println("Credito: " + this.credito );
+        System.out.println("Credito: " + this.credito + "€");
         System.out.println("Ultime chiamate: " + Arrays.toString(this.chiamate));
 
     }

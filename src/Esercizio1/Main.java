@@ -9,7 +9,7 @@ public class Main {
         System.out.println(rettangolo.stampaRettangolo());
         Rettangolo rettangolo2 = new Rettangolo(6,12);
         System.out.println(rettangolo2.stampaRettangolo());
-        System.out.println(stampaDueRettangoli(5,2,6,12));
+        System.out.println(stampaDueRettangoli(rettangolo, rettangolo2));
 
     }
 }

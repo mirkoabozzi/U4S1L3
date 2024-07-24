@@ -13,17 +13,26 @@ public class Rettangolo {
     }
 
     //metodi
+
+    public double perimetro(){
+        return (this.altezza + this.altezza) * 2;
+    }
+
+    public double area(){
+        return this.altezza * this.larghezza;
+    }
+
     public String stampaRettangolo() {
-             double perimetro =  (this.altezza + this.larghezza) * 2 ;
-             double area = this.altezza * this.larghezza;
+             double perimetro = perimetro();
+             double area = area();
              return "Perimetro = "+ perimetro + " area = "+ area;
     }
 
-    public static String stampaDueRettangoli(double altezza1, double larghezza1,double altezza2, double larghezza2) {
-        double perimetro1 = (altezza1 + larghezza1)*2;
-        double area1 = (altezza1 * larghezza1);
-        double perimetro2 = (altezza2 + larghezza2)*2;
-        double area2 = (altezza2 * larghezza2);
+    public static String stampaDueRettangoli(Rettangolo rettangolo1, Rettangolo rettangolo2) {
+        double perimetro1 = rettangolo1.perimetro();
+        double area1 = rettangolo1.area();
+        double perimetro2 = rettangolo2.perimetro();
+        double area2 = rettangolo2.area();
         return "Somma perimetri= " + (perimetro1 + perimetro2) + " Somma aree= "+ (area1 + area2);
     }
 
