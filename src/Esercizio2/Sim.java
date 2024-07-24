@@ -21,4 +21,8 @@ public class Sim {
         System.out.println("Ultime chiamate: " + Arrays.toString(this.chiamate));
 
     }
+
+    public void setChiamate(Chiamata[] chiamate) {
+        this.chiamate = chiamate;
+    }
 }
